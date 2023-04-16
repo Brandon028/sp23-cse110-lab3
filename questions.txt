@@ -1,1 +1,3 @@
 link: favicon not showing up
+
+some links just are not working in general

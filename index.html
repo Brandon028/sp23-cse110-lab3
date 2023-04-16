@@ -1,4 +1,4 @@
-{
+
 <!DOCTYPE html>  
 <html lang="en">  
 <head>  
@@ -17,6 +17,105 @@
         </nav>
     </header>
     <main>
+        <section>
+            <h1>We talked about</h1>
+            <p>bees</p>
+        </section>
+
+        <section>
+            <h2>What color are bees?</h2>
+            <div>
+                <ul>
+                    <li><span style="color:red">red</span></li>
+                    <li><span style="color:green">green</span></li>
+                    <li><span style="color:blue">blue</span></li>
+                </ul>
+            </div>
+            <hr>
+                <p>wait, aren't they <span style="color: orange">yellow?</span></p>
+            <hr>
+        </section>
+
+        <section>
+            <h1>Value of bees in order</h1>
+            <ol>
+                <li>honey</li>
+                <li>pollinator</li>
+                <li>aesthetic</li>
+            </ol>
+        </section>
+
+        <section>
+            <h1>Description of bees</h1>
+            <p>Bees are <b>DOPE</b>, but the most important thing is that <strong>they help the environment</strong></p>
+            <img src="images\april_beedrill.png" alt="not a bee">
+            <p><em>They're also an invasive species but we don't talk about that</em></p>
+            <p>from <a href="https://education.nationalgeographic.org/resource/invasive-species/">National Geographic:</a></p>
+            <p><i>
+                An invasive species is an organism that is not indigenous, or native, to a particular area. Invasive species can cause great economic and environmental harm to the new area.
+            </i></p>
+            <br>
+            <p>oh well, moving on, here's what they sound like</p>
+            <audio controls>
+                <source src="15.ogg" type="audio/ogg">
+                Something's wrong
+            </audio>
+            <p>here's a video of bees for fun</p>
+            <video width="320" height="240" controls>
+                <source src="bee_video.mp4" type="video/mp4">
+                something's wrong
+            </video>
+            <br><br>
+            <details>
+                <summary>Bees</summary>
+                <p>bee bee bee bee bee bee bee</p>
+            </details>
+        </section>
+
+        <section>
+            <h2>Please fill these out</h2>
+            <form>
+                <fieldset>
+                    <h2>Date of next meeting</h2>
+                    <input type="date">
+                    <br>
+                    <h2>Last words</h2>
+                    <textarea cols="75" rows="10">put something</textarea>
+                </fieldset>
+                <br><br>
+                <fieldset>
+                    <h2>Choose your favorite bee from this dropdown</h2>
+                    <input list="bees">
+                    <datalist id="bees">
+                        <option value="honey bee">
+                        <option value="bumble bee">
+                        <option value="beedrill">
+                    </datalist>
+                    <br>
+                    <h2>Why did you choose this bee</h2>
+                    <input type="text">
+                    
+                    <h2>Select your favorite pattern on bees</h2>
+                    <input type="radio" id="1" name="pat" value="stripes">
+                    <label for="1">Stripes</label><br>
+                    <input type="radio" id="2" name="pat" value="tiger">
+                    <label for="css">Tiger</label><br>
+                    <input type="radio" id="3" name="pat" value="checkers">
+                    <label for="javascript">Checkers</label>
+                </fieldset>
+
+                <fieldset>
+                    <h2>Choose your favorite bee type</h2>
+                    <select>
+                        <option>queen</option>
+                        <option>worker</option>
+                        <option>keeper</option>
+                    </select>
+                    <button type="button">are you sure?</button>
+                </fieldset>
+            </form> 
+        </section>
+
 
     </main>
     <footer>
@@ -25,5 +124,5 @@
       
 </body>  
 </html>
-}
+
     
