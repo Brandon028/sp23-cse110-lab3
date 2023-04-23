@@ -1,6 +1,6 @@
 ---
 name: custom issue template
-about: "(ssues for those tasks with the appropriate labels and assignee (yourself). "
+about: CSS checklist
 title: 'CSS: do this'
 labels: ''
 assignees: Brandon028
@@ -11,3 +11,4 @@ assignees: Brandon028
 name: CSS todo
 assignees: Brandon
 ---
+ task
