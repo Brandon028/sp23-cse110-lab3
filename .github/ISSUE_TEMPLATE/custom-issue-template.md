@@ -1,15 +1,13 @@
 ---
 name: custom issue template
 about: "(ssues for those tasks with the appropriate labels and assignee (yourself). "
-title: custom issue?
+title: 'CSS: do this'
 labels: ''
 assignees: Brandon028
 
 ---
 
 ---
-name: issue?
-about: template for issues
-title: "[DATE]: [FEATURE NAME]"
+name: CSS todo
 assignees: Brandon
 ---
