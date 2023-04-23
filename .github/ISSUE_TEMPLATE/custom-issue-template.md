@@ -7,12 +7,9 @@ assignees: Brandon028
 
 ---
 
-- type: textarea
-    id: what-issue
-    attributes:
-      label: What issue?
-      description: what is your issue?
-      placeholder: issue?
-      value: "write issue here"
-    validations:
-      required: true
+---
+name: issue?
+about: template for issues
+title: "[DATE]: [FEATURE NAME]"
+assignees: Brandon
+---
