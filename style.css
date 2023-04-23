@@ -1,0 +1,108 @@
+body {background-color: rgba(255, 255, 80, 0.352);
+    display: grid;
+    grid-template-columns: max-content;
+    grid-area:unset;
+    grid-row: auto;
+     font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1.5ch;
+    font-family: 'Castoro Titling', cursive;
+    width: 10rem;
+    margin-top: 10px;
+    padding-top: 5rem;
+    text-align: center;
+    display: inline-block;
+    height: 10px;
+    max-width: 15px;
+    max-height: 15px;
+}
+
+h2:hover{
+    font-size: 1cm;
+    line-height: 10mm;
+    width: 4in;
+    padding: 10px 25px 25px 10px;
+    margin: 10px 25px 25px 10px;
+    display: inline;
+    position: relative;
+}
+
+h3:active{
+    font-size: 2cm;
+}
+div {
+    border: 0.5rem outset black;
+    border-left: 6px solid yellow;
+    position: static;
+}
+
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+
+.class{
+    text-decoration: underline wavy blue 5px;
+    color: red;
+}
+body{
+    color: rgb(44, 56, 0);
+}
+@media (max-width: 500px) {
+    body {
+      font-size: 50px;
+    }
+}
+
+.title {
+    color: blue;
+  }
+  
+  #coco {
+    color: pink;
+  }
+  
+  * {
+    color: black;
+  }
+  
+  p {
+    color: purple;
+  }
+  
+  p[data-highlight] {
+    font-size: large;
+    background-color: blanchedalmond;
+  }
+  
+  
+  h3, #coco {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  
+/* combinators*/
+section h2 {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+section > p {
+	font-stretch: condensed;
+}
+
+h2 ~ p {
+	font-family:fantasy;
+}
+
+li + li {
+	background-color:blueviolet;
+}
+
+p.title {
+	background-color: aquamarine;
+}

@@ -2,15 +2,21 @@
 <!DOCTYPE html>  
 <html lang="en">  
 <head>  
+    <style> /* setting background color to light yellow */
+        body {
+        background-color: rgba(255, 234, 0, 0.183);
+        }
+    </style>
     <title>Meeting Notes</title>  
     <meta name="author" content="Brandon">
     <link rel="icon" type="image/png" target="_blank" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
 </head>  
 <body>  
     <header> 
-        <h1>Group 20's First Meeting</h1> 
-        <h2>April 15, 2023</h2>
-        <h3>What should we do?</h3>
+        <h1 style="color: #e72d2d">Group 20's First Meeting</h1> 
+        <h2 style="color: hsl(266, 10%, 50%)">April 15, 2023</h2>
+        <h3 style="color:blue;"></h3style>What should we do?</h3>
         <nav>
             <a href="part2.txt">HTML</a> |
             <a href="bee.txt/">beeee</a>
@@ -19,9 +25,9 @@
     <main>
         <section>
             <h1>We talked about</h1>
-            <p>bees</p>
+            <p class="title">bees</p>
         </section>
-
+a
         <section>
             <h2>What color are bees?</h2>
             <div>
@@ -29,10 +35,13 @@
                     <li><span style="color:red">red</span></li>
                     <li><span style="color:green">green</span></li>
                     <li><span style="color:blue">blue</span></li>
+                    <div id="coco">cocomelon.</div>
+
                 </ul>
             </div>
             <hr>
                 <p>wait, aren't they <span style="color: orange">yellow?</span></p>
+                <p data-highlight>HIGHLIGHT THE BEES MY GUY</p>
             <hr>
         </section>
 
@@ -50,7 +59,7 @@
             <p>Bees are <b>DOPE</b>, but the most important thing is that <strong>they help the environment</strong></p>
             <img src="images\april_beedrill.png" alt="not a bee">
             <p><em>They're also an invasive species but we don't talk about that</em></p>
-            <p>from <a href="https://education.nationalgeographic.org/resource/invasive-species/">National Geographic:</a></p>
+            <p>from <a href="https://education.nationalgeographic.org/resource/invasive-species/ rel="external">National Geographic:</a></p>
             <p><i>
                 An invasive species is an organism that is not indigenous, or native, to a particular area. Invasive species can cause great economic and environmental harm to the new area.
             </i></p>
@@ -80,6 +89,7 @@
                     <input type="date">
                     <br>
                     <h2>Last words</h2>
+                    <p>bee bee bee bee bee bee bee</p>
                     <textarea cols="75" rows="10">put something</textarea>
                 </fieldset>
                 <br><br>
